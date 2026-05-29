@@ -1,4 +1,5 @@
 import './styles/app.css'
+import { About } from './sections/About/About'
 
 const stacks = [
   'React',
@@ -53,6 +54,7 @@ function App() {
             <a href="#projects">Projetos</a>
             <a href="#experience">Experiência</a>
             <a href="#contact">Contato</a>
+            <a href="#about">Sobre</a>
           </div>
         </nav>
 
@@ -79,6 +81,8 @@ function App() {
           </div>
         </div>
       </section>
+
+      <About />
 
       <section className="section">
         <div className="sectionHeader">

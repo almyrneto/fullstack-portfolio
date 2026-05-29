@@ -293,3 +293,114 @@ h1 {
     padding: 42px 24px;
   }
 }
+
+.about {
+  position: relative;
+}
+
+.aboutGrid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 28px;
+  align-items: stretch;
+}
+
+.aboutPanel {
+  position: relative;
+  overflow: hidden;
+  padding: 34px;
+  border-radius: 28px;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  background:
+    linear-gradient(135deg, rgba(34, 211, 238, 0.12), transparent),
+    rgba(15, 23, 42, 0.68);
+  backdrop-filter: blur(18px);
+}
+
+.aboutPanel::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  background:
+    linear-gradient(120deg, rgba(34, 211, 238, 0.28), transparent 45%),
+    linear-gradient(300deg, rgba(167, 139, 250, 0.22), transparent 50%);
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.aboutPanel p {
+  position: relative;
+  margin: 0;
+  color: #cbd5e1;
+  font-size: 1.05rem;
+  line-height: 1.9;
+}
+
+.aboutPanel p + p {
+  margin-top: 22px;
+}
+
+.highlightsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.highlightCard {
+  position: relative;
+  overflow: hidden;
+  min-height: 210px;
+  padding: 26px;
+  border-radius: 28px;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  background:
+    radial-gradient(circle at top right, rgba(34, 211, 238, 0.16), transparent 45%),
+    rgba(15, 23, 42, 0.62);
+  backdrop-filter: blur(18px);
+}
+
+.highlightCard::after {
+  content: '';
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  right: -40px;
+  bottom: -40px;
+  border-radius: 999px;
+  background: rgba(167, 139, 250, 0.18);
+  filter: blur(10px);
+}
+
+.highlightCard strong {
+  display: block;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1;
+  letter-spacing: -0.06em;
+  background: linear-gradient(135deg, #fff, #67e8f9, #a78bfa);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.highlightCard span {
+  display: block;
+  margin-top: 10px;
+  color: #67e8f9;
+  font-weight: 800;
+}
+
+.highlightCard p {
+  position: relative;
+  margin: 18px 0 0;
+  color: #cbd5e1;
+  line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+  .aboutGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .highlightsGrid {
+    grid-template-columns: 1fr;
+  }
+}
