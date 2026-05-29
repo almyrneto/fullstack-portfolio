@@ -5,7 +5,7 @@ export function Footer() {
 
       <p>Desenvolvido por Almyr Freiman — Fullstack Developer.</p>
 
-      <span>React • TypeScript • Framer Motion • CI/CD em construção</span>
+      <span>React • TypeScript • Framer Motion • CI/CD • AWS</span>
     </footer>
   )
 }

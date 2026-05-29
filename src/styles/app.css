@@ -36,11 +36,6 @@
   z-index: 2;
 }
 
-.navbar strong {
-  font-size: 1.3rem;
-  letter-spacing: -0.04em;
-}
-
 .navbar div {
   display: flex;
   gap: 24px;
@@ -1071,4 +1066,15 @@ h1 {
   .architecturePage {
     padding-top: 130px;
   }
+}
+.brand {
+  color: #f8fafc;
+  font-size: 1.3rem;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  text-decoration: none;
+}
+
+.brand:hover {
+  color: #67e8f9;
 }
