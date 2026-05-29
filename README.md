@@ -1,166 +1,311 @@
 # Fullstack Portfolio
 
-Meu portfólio profissional desenvolvido para demonstrar habilidades em desenvolvimento Fullstack, arquitetura de aplicações, DevOps, CI/CD, automação de processos e boas práticas de engenharia de software.
+Portfolio profissional desenvolvido para demonstrar habilidades em Desenvolvimento Fullstack, Arquitetura de Software, DevOps, Cloud Computing, CI/CD e Engenharia de Software.
 
-O projeto será desenvolvido publicamente através de commits incrementais, permitindo acompanhar toda a evolução da aplicação desde sua concepção até o deploy em produção.
-
----
-
-## Objetivos
-
-Este projeto tem como objetivo demonstrar conhecimento prático em:
-
-- Desenvolvimento Frontend
-- Desenvolvimento Backend
-- Integração de APIs
-- Arquitetura de Software
-- Controle de Versão com Git
-- CI/CD
-- Cloud Computing
-- Infraestrutura AWS
-- Automação de Processos
-- Boas práticas de Engenharia de Software
+O projeto está sendo desenvolvido publicamente através de commits incrementais, permitindo acompanhar toda a evolução da aplicação desde sua concepção até a produção.
 
 ---
 
-## Tecnologias Planejadas
+## Live Demo
+
+Production URL:
+
+https://d2nbrtkevbbqoo.cloudfront.net
+
+---
+
+## Project Status
+
+### Production Ready
+
+Funcionalidades implementadas:
+
+* Landing Page
+* About Section
+* Skills Showcase
+* Projects Showcase
+* Professional Experience Timeline
+* Contact Section
+* Footer
+* React Router
+* Architecture Page
+* AWS Deployment
+* GitHub Actions CI/CD
+* ESLint
+* Prettier
+
+---
+
+## Tech Stack
 
 ### Frontend
 
-- React
-- TypeScript
-- Vite
-- Styled Components
-- React Router
-- Responsive Design
+* React
+* TypeScript
+* Vite
+* React Router DOM
+* Framer Motion
+* CSS3
 
-### Backend
+### Backend Knowledge
 
-- Node.js
-- NestJS
-- REST APIs
+* Node.js
+* NestJS
+* REST APIs
+* Supabase
 
-### Banco de Dados
+### Database
 
-- Supabase
-- PostgreSQL
+* PostgreSQL
+* Supabase
 
 ### DevOps
 
-- GitHub Actions
-- CI/CD
-- AWS S3
-- AWS CloudFront
-- AWS Route 53
-- AWS Certificate Manager
+* GitHub Actions
+* CI/CD Pipeline
+* AWS S3
+* AWS CloudFront
+* AWS IAM
+* AWS CLI
 
-### Ferramentas
+### Tools
 
-- Git
-- Linux
-- WSL
-- npm
+* Git
+* Linux
+* WSL
+* npm
+* VS Code
 
 ---
 
-## Funcionalidades Planejadas
+## Professional Experience
+
+### Tecnofábrica
+
+Fullstack / Frontend Developer
+
+Projects:
+
+* R10
+* Refinne
+* Tecnops
+
+Main activities:
+
+* React + TypeScript development
+* Fullstack development
+* REST API integrations
+* Backoffice/Admin systems
+* Business rules implementation
+* Code review
+* RxJS integration
+* Complex drag and drop interfaces
+* Component architecture
+* Maintenance and bug fixing
+
+Additional contributions:
+
+* Content generation automation bot
+* Instagram automation
+* LinkedIn automation
+
+### iZap
+
+Technology and Platform Support
+
+Main activities:
+
+* Technical support
+* Platform support
+* Process organization
+* Technical troubleshooting
+* Operational routines
+
+### Economarket
+
+Technology Operations Support
+
+Main activities:
+
+* Internal systems support
+* Operational assistance
+* Problem solving
+* Team collaboration
+* Technology operations
+
+---
+
+## Architecture
+
+Project structure:
+
+```txt
+src/
+├── components/
+├── pages/
+├── sections/
+├── styles/
+├── hooks/
+├── services/
+├── types/
+├── utils/
+├── App.tsx
+└── main.tsx
+```
+
+Pages:
+
+```txt
+/
+└── Home
+
+/architecture
+└── Engineering Documentation
+```
+
+---
+
+## CI/CD Pipeline
+
+Workflow:
+
+```txt
+git push
+↓
+GitHub Actions
+↓
+Prettier Validation
+↓
+ESLint Validation
+↓
+Build Validation
+↓
+AWS S3 Deploy
+↓
+CloudFront Cache Invalidation
+↓
+Production
+```
+
+---
+
+## Cloud Infrastructure
+
+AWS Services:
+
+* Amazon S3
+* Amazon CloudFront
+* AWS IAM
+* AWS CLI
+
+Deployment Strategy:
+
+```txt
+React Build
+↓
+S3 Bucket
+↓
+CloudFront CDN
+↓
+HTTPS Distribution
+↓
+Global Delivery
+```
+
+---
+
+## Features
 
 ### Portfolio
 
-- Página inicial
-- Sobre mim
-- Experiência profissional
-- Projetos
-- Tecnologias
-- Contato
+* Hero Section
+* About
+* Skills
+* Projects
+* Experience
+* Contact
 
-### Área Técnica
+### Engineering
 
-- Documentação da arquitetura
-- Decisões técnicas
-- Estrutura do projeto
-- Fluxo de deploy
-- Pipeline CI/CD
+* Architecture Documentation
+* Technical Decisions
+* CI/CD Pipeline
+* Cloud Deployment
 
-### Projetos em Destaque
+### Showcase
 
-- Sistemas Fullstack
-- Backoffices Administrativos
-- Integrações com APIs
-- Automações de Processos
-- Bots para geração de conteúdo
-- Projetos React + TypeScript
+* Fullstack Projects
+* Administrative Systems
+* API Integrations
+* Automation Projects
+* Production Experience
 
 ---
 
 ## Roadmap
 
-### Fase 1 - Estrutura Inicial
+### Next Features
 
-- [ ] Configuração do projeto
-- [ ] Configuração Git
-- [ ] Configuração React + TypeScript
-- [ ] Estrutura de pastas
-
-### Fase 2 - Frontend
-
-- [ ] Landing Page
-- [ ] Sobre Mim
-- [ ] Tecnologias
-- [ ] Experiências
-- [ ] Projetos
-- [ ] Responsividade
-
-### Fase 3 - Qualidade
-
-- [ ] ESLint
-- [ ] Prettier
-- [ ] Husky
-- [ ] Commit Convention
-
-### Fase 4 - DevOps
-
-- [ ] GitHub Actions
-- [ ] Pipeline de Build
-- [ ] Pipeline de Deploy
-- [ ] Deploy AWS
-
-### Fase 5 - Produção
-
-- [ ] Domínio personalizado
-- [ ] HTTPS
-- [ ] Monitoramento
-- [ ] Otimizações de Performance
+* Interactive Developer Dashboard
+* GitHub Statistics Integration
+* Professional Journey Page
+* Analytics Integration
+* Custom Domain
+* AWS Route 53
+* Performance Improvements
+* Lighthouse Optimization
 
 ---
 
-## Arquitetura
+## Running Locally
 
-A documentação completa da arquitetura será adicionada durante o desenvolvimento do projeto.
+Install dependencies:
 
-O objetivo é documentar todas as decisões técnicas tomadas ao longo da construção da aplicação.
+```bash
+npm install
+```
+
+Start development server:
+
+```bash
+npm run dev
+```
+
+Run lint:
+
+```bash
+npm run lint
+```
+
+Run formatting:
+
+```bash
+npm run format
+```
+
+Build project:
+
+```bash
+npm run build
+```
 
 ---
 
-## Desenvolvimento
-
-Este projeto está sendo desenvolvido utilizando metodologia incremental, com commits frequentes para documentar a evolução da aplicação.
-
-Cada funcionalidade será implementada em etapas, seguindo boas práticas de versionamento e organização de código.
-
----
-
-## Autor
+## Author
 
 Almyr Freiman
 
-Desenvolvedor Fullstack
+Fullstack Developer
 
-Stack principal:
+Main Stack:
 
-- React
-- TypeScript
-- Node.js
-- NestJS
-- Supabase
-- Python
+* React
+* TypeScript
+* Node.js
+* NestJS
+* Supabase
+* Python
+
+---
+
+Built with React, TypeScript, AWS and GitHub Actions.
