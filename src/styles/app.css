@@ -1273,3 +1273,152 @@ h1 {
     grid-template-columns: 1fr;
   }
 }
+.githubPanel {
+  position: relative;
+  overflow: hidden;
+  margin-top: 24px;
+  padding: 30px;
+  border-radius: 30px;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  background:
+    linear-gradient(145deg, rgba(15, 23, 42, 0.94), rgba(15, 23, 42, 0.5)),
+    radial-gradient(
+      circle at top right,
+      rgba(34, 211, 238, 0.14),
+      transparent 42%
+    );
+  backdrop-filter: blur(18px);
+}
+
+.githubStats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.githubStats div {
+  padding: 18px;
+  border-radius: 20px;
+  background: rgba(2, 6, 23, 0.42);
+  border: 1px solid rgba(148, 163, 184, 0.14);
+}
+
+.githubStats strong {
+  display: block;
+  font-size: 1.7rem;
+  color: #f8fafc;
+}
+
+.githubStats span {
+  color: #67e8f9;
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+.githubCommits {
+  margin-top: 28px;
+}
+
+.githubCommits h3 {
+  margin: 0 0 16px;
+}
+
+.githubCommits a {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 14px 0;
+  color: #cbd5e1;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.14);
+}
+
+.githubCommits a:hover {
+  color: #67e8f9;
+}
+
+.githubCommits small,
+.githubStatus {
+  color: #94a3b8;
+}
+
+@media (max-width: 760px) {
+  .githubStats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .githubCommits a {
+    flex-direction: column;
+  }
+}
+.dashboardOperationsGrid {
+  display: grid;
+  grid-template-columns: 1.4fr 0.6fr;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.githubActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 26px;
+}
+
+.githubActions a {
+  min-height: 46px;
+  padding: 0 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  color: #020617;
+  text-decoration: none;
+  font-weight: 900;
+  background: linear-gradient(135deg, #22d3ee, #a78bfa);
+}
+
+.productionPanel {
+  position: relative;
+  overflow: hidden;
+  padding: 30px;
+  border-radius: 30px;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  background:
+    linear-gradient(145deg, rgba(15, 23, 42, 0.94), rgba(15, 23, 42, 0.5)),
+    radial-gradient(
+      circle at top right,
+      rgba(167, 139, 250, 0.16),
+      transparent 42%
+    );
+  backdrop-filter: blur(18px);
+}
+
+.productionStatusList {
+  display: grid;
+  gap: 14px;
+}
+
+.productionStatusList div {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 16px;
+  border-radius: 18px;
+  background: rgba(2, 6, 23, 0.42);
+  border: 1px solid rgba(148, 163, 184, 0.14);
+}
+
+.productionStatusList span {
+  color: #94a3b8;
+}
+
+.productionStatusList strong {
+  color: #67e8f9;
+}
+
+@media (max-width: 1000px) {
+  .dashboardOperationsGrid {
+    grid-template-columns: 1fr;
+  }
+}
