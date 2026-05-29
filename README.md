@@ -20,19 +20,19 @@ https://d2nbrtkevbbqoo.cloudfront.net
 
 Funcionalidades implementadas:
 
-* Landing Page
-* About Section
-* Skills Showcase
-* Projects Showcase
-* Professional Experience Timeline
-* Contact Section
-* Footer
-* React Router
-* Architecture Page
-* AWS Deployment
-* GitHub Actions CI/CD
-* ESLint
-* Prettier
+- Landing Page
+- About Section
+- Skills Showcase
+- Projects Showcase
+- Professional Experience Timeline
+- Contact Section
+- Footer
+- React Router
+- Architecture Page
+- AWS Deployment
+- GitHub Actions CI/CD
+- ESLint
+- Prettier
 
 ---
 
@@ -40,41 +40,41 @@ Funcionalidades implementadas:
 
 ### Frontend
 
-* React
-* TypeScript
-* Vite
-* React Router DOM
-* Framer Motion
-* CSS3
+- React
+- TypeScript
+- Vite
+- React Router DOM
+- Framer Motion
+- CSS3
 
 ### Backend Knowledge
 
-* Node.js
-* NestJS
-* REST APIs
-* Supabase
+- Node.js
+- NestJS
+- REST APIs
+- Supabase
 
 ### Database
 
-* PostgreSQL
-* Supabase
+- PostgreSQL
+- Supabase
 
 ### DevOps
 
-* GitHub Actions
-* CI/CD Pipeline
-* AWS S3
-* AWS CloudFront
-* AWS IAM
-* AWS CLI
+- GitHub Actions
+- CI/CD Pipeline
+- AWS S3
+- AWS CloudFront
+- AWS IAM
+- AWS CLI
 
 ### Tools
 
-* Git
-* Linux
-* WSL
-* npm
-* VS Code
+- Git
+- Linux
+- WSL
+- npm
+- VS Code
 
 ---
 
@@ -86,28 +86,28 @@ Fullstack / Frontend Developer
 
 Projects:
 
-* R10
-* Refinne
-* Tecnops
+- R10
+- Refinne
+- Tecnops
 
 Main activities:
 
-* React + TypeScript development
-* Fullstack development
-* REST API integrations
-* Backoffice/Admin systems
-* Business rules implementation
-* Code review
-* RxJS integration
-* Complex drag and drop interfaces
-* Component architecture
-* Maintenance and bug fixing
+- React + TypeScript development
+- Fullstack development
+- REST API integrations
+- Backoffice/Admin systems
+- Business rules implementation
+- Code review
+- RxJS integration
+- Complex drag and drop interfaces
+- Component architecture
+- Maintenance and bug fixing
 
 Additional contributions:
 
-* Content generation automation bot
-* Instagram automation
-* LinkedIn automation
+- Content generation automation bot
+- Instagram automation
+- LinkedIn automation
 
 ### iZap
 
@@ -115,11 +115,11 @@ Technology and Platform Support
 
 Main activities:
 
-* Technical support
-* Platform support
-* Process organization
-* Technical troubleshooting
-* Operational routines
+- Technical support
+- Platform support
+- Process organization
+- Technical troubleshooting
+- Operational routines
 
 ### Economarket
 
@@ -127,11 +127,11 @@ Technology Operations Support
 
 Main activities:
 
-* Internal systems support
-* Operational assistance
-* Problem solving
-* Team collaboration
-* Technology operations
+- Internal systems support
+- Operational assistance
+- Problem solving
+- Team collaboration
+- Technology operations
 
 ---
 
@@ -193,10 +193,10 @@ Production
 
 AWS Services:
 
-* Amazon S3
-* Amazon CloudFront
-* AWS IAM
-* AWS CLI
+- Amazon S3
+- Amazon CloudFront
+- AWS IAM
+- AWS CLI
 
 Deployment Strategy:
 
@@ -218,27 +218,27 @@ Global Delivery
 
 ### Portfolio
 
-* Hero Section
-* About
-* Skills
-* Projects
-* Experience
-* Contact
+- Hero Section
+- About
+- Skills
+- Projects
+- Experience
+- Contact
 
 ### Engineering
 
-* Architecture Documentation
-* Technical Decisions
-* CI/CD Pipeline
-* Cloud Deployment
+- Architecture Documentation
+- Technical Decisions
+- CI/CD Pipeline
+- Cloud Deployment
 
 ### Showcase
 
-* Fullstack Projects
-* Administrative Systems
-* API Integrations
-* Automation Projects
-* Production Experience
+- Fullstack Projects
+- Administrative Systems
+- API Integrations
+- Automation Projects
+- Production Experience
 
 ---
 
@@ -246,14 +246,14 @@ Global Delivery
 
 ### Next Features
 
-* Interactive Developer Dashboard
-* GitHub Statistics Integration
-* Professional Journey Page
-* Analytics Integration
-* Custom Domain
-* AWS Route 53
-* Performance Improvements
-* Lighthouse Optimization
+- Interactive Developer Dashboard
+- GitHub Statistics Integration
+- Professional Journey Page
+- Analytics Integration
+- Custom Domain
+- AWS Route 53
+- Performance Improvements
+- Lighthouse Optimization
 
 ---
 
@@ -299,12 +299,12 @@ Fullstack Developer
 
 Main Stack:
 
-* React
-* TypeScript
-* Node.js
-* NestJS
-* Supabase
-* Python
+- React
+- TypeScript
+- Node.js
+- NestJS
+- Supabase
+- Python
 
 ---
 
