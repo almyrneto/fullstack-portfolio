@@ -813,3 +813,66 @@ h1 {
     grid-template-columns: 1fr;
   }
 }
+
+.contactSection {
+  position: relative;
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.contactPanel {
+  padding: 40px;
+  border-radius: 32px;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  background:
+    linear-gradient(145deg, rgba(15, 23, 42, 0.92), rgba(15, 23, 42, 0.48)),
+    radial-gradient(circle at top right, rgba(34, 211, 238, 0.14), transparent);
+}
+
+.contactPanel h3 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.contactPanel p {
+  color: #cbd5e1;
+  line-height: 1.8;
+}
+
+.contactCards {
+  display: grid;
+  gap: 18px;
+}
+
+.contactCard {
+  padding: 28px;
+  text-decoration: none;
+  border-radius: 24px;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  background:
+    linear-gradient(145deg, rgba(15, 23, 42, 0.92), rgba(15, 23, 42, 0.48)),
+    radial-gradient(circle at top right, rgba(167, 139, 250, 0.16), transparent);
+}
+
+.contactCard small {
+  display: block;
+  color: #67e8f9;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-bottom: 10px;
+}
+
+.contactCard strong {
+  color: white;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 900px) {
+  .contactGrid {
+    grid-template-columns: 1fr;
+  }
+}

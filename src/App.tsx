@@ -3,6 +3,7 @@ import { About } from './sections/About/About'
 import { Skills } from './sections/Skills/Skills'
 import { Projects } from './sections/Projects/Projects'
 import { Experience } from './sections/Experience/Experience'
+import { Contact } from './sections/Contact/Contact'
 
 function App() {
   return (
@@ -51,18 +52,8 @@ function App() {
       <Skills />
       <Projects />
       <Experience />
-
-      <section className="contact" id="contact">
-        <h2>Vamos construir algo juntos?</h2>
-        <p>
-          Estou sempre evoluindo como desenvolvedor e construindo projetos que
-          unem código, produto, automação e engenharia.
-        </p>
-
-        <a href="mailto:almyr@tecnofabrica.com.br" className="primaryButton">
-          Enviar email
-        </a>
-      </section>
+      <Contact />
+      
     </main>
   )
 }
