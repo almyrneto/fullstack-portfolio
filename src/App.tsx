@@ -1,5 +1,6 @@
 import './styles/app.css'
 import { About } from './sections/About/About'
+import { Skills } from './sections/Skills/Skills'
 
 const stacks = [
   'React',
@@ -55,6 +56,7 @@ function App() {
             <a href="#experience">Experiência</a>
             <a href="#contact">Contato</a>
             <a href="#about">Sobre</a>
+            <a href="#skills">Skills</a>
           </div>
         </nav>
 
@@ -83,6 +85,8 @@ function App() {
       </section>
 
       <About />
+
+      <Skills />
 
       <section className="section">
         <div className="sectionHeader">
