@@ -1,61 +1,32 @@
+import { Route, Routes } from 'react-router-dom'
 import './styles/app.css'
-import { About } from './sections/About/About'
-import { Skills } from './sections/Skills/Skills'
-import { Projects } from './sections/Projects/Projects'
-import { Experience } from './sections/Experience/Experience'
-import { Contact } from './sections/Contact/Contact'
 import { Footer } from './components/Footer/Footer'
+import { Architecture } from './pages/Architecture/Architecture'
+import { Home } from './pages/Home/Home'
 
 function App() {
   return (
     <main className="page">
-      <section className="hero">
-        <div className="orb orbOne" />
-        <div className="orb orbTwo" />
+      <nav className="navbar">
+        <strong>AF.dev</strong>
 
-        <nav className="navbar">
-          <strong>AF.dev</strong>
-
-          <div>
-            <a href="#about">Sobre</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projetos</a>
-            <a href="#experience">Experiência</a>
-            <a href="#contact">Contato</a>
-          </div>
-        </nav>
-
-        <div className="heroContent">
-          <span className="badge">Fullstack Developer</span>
-
-          <h1>
-            Criando interfaces, sistemas e automações com visão de produto.
-          </h1>
-
-          <p>
-            Sou Almyr Freiman, desenvolvedor fullstack com experiência em React,
-            TypeScript, Node.js, NestJS, Supabase, automações, backoffices e
-            integrações frontend + backend.
-          </p>
-
-          <div className="actions">
-            <a href="#projects" className="primaryButton">
-              Ver projetos
-            </a>
-            <a href="#contact" className="secondaryButton">
-              Entrar em contato
-            </a>
-          </div>
+        <div>
+          <a href="/">Home</a>
+          <a href="/#about">Sobre</a>
+          <a href="/#skills">Skills</a>
+          <a href="/#projects">Projetos</a>
+          <a href="/#experience">Experiência</a>
+          <a href="/architecture">Architecture</a>
+          <a href="/#contact">Contato</a>
         </div>
-      </section>
+      </nav>
 
-      <About />
-      <Skills />
-      <Projects />
-      <Experience />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/architecture" element={<Architecture />} />
+      </Routes>
+
       <Footer />
-      
     </main>
   )
 }

@@ -907,3 +907,122 @@ h1 {
     text-align: center;
   }
 }
+
+.architecturePage {
+  min-height: 100vh;
+  padding: 150px 7vw 100px;
+}
+
+.architectureHero {
+  max-width: 1050px;
+  margin-bottom: 70px;
+}
+
+.architectureHero h1 {
+  margin: 26px 0 0;
+  max-width: 980px;
+  font-size: clamp(3rem, 7vw, 7rem);
+  line-height: 0.9;
+  letter-spacing: -0.08em;
+  background: linear-gradient(135deg, #ffffff, #67e8f9, #a78bfa);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.architectureHero p {
+  max-width: 760px;
+  margin: 28px 0 0;
+  color: #cbd5e1;
+  font-size: 1.15rem;
+  line-height: 1.8;
+}
+
+.architectureGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.architectureCard {
+  position: relative;
+  overflow: hidden;
+  min-height: 330px;
+  padding: 28px;
+  border-radius: 30px;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  background:
+    linear-gradient(145deg, rgba(15, 23, 42, 0.94), rgba(15, 23, 42, 0.5)),
+    radial-gradient(circle at top right, rgba(34, 211, 238, 0.14), transparent 42%);
+  backdrop-filter: blur(18px);
+}
+
+.architectureCard::before {
+  content: '';
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  right: -70px;
+  bottom: -70px;
+  border-radius: 999px;
+  background: rgba(167, 139, 250, 0.16);
+  filter: blur(10px);
+}
+
+.architectureCardHeader {
+  position: relative;
+}
+
+.architectureCardHeader span {
+  color: #67e8f9;
+  font-size: 0.8rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+}
+
+.architectureCardHeader h2 {
+  margin: 14px 0 0;
+  font-size: 1.7rem;
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+
+.architectureCard p {
+  position: relative;
+  color: #cbd5e1;
+  line-height: 1.8;
+  margin: 22px 0 0;
+}
+
+.architectureTags {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 26px;
+}
+
+.architectureTags span {
+  padding: 8px 10px;
+  border-radius: 999px;
+  color: #dffbff;
+  background: rgba(34, 211, 238, 0.08);
+  border: 1px solid rgba(34, 211, 238, 0.14);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+@media (max-width: 1100px) {
+  .architectureGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .architectureGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .architecturePage {
+    padding-top: 130px;
+  }
+}
