@@ -9,6 +9,7 @@ export function Header() {
 
       <div>
         <a href="/#about">Sobre</a>
+        <a href="/#dashboard">Dashboard</a>
         <a href="/#skills">Skills</a>
         <a href="/#projects">Projetos</a>
         <a href="/#experience">Experiência</a>

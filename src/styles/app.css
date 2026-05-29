@@ -1078,3 +1078,198 @@ h1 {
 .brand:hover {
   color: #67e8f9;
 }
+
+.dashboardSection {
+  position: relative;
+}
+
+.dashboardGrid {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 24px;
+  align-items: stretch;
+}
+
+.metricsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.metricCard,
+.dashboardPanel,
+.pipelinePanel {
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  background:
+    linear-gradient(145deg, rgba(15, 23, 42, 0.94), rgba(15, 23, 42, 0.5)),
+    radial-gradient(
+      circle at top right,
+      rgba(34, 211, 238, 0.14),
+      transparent 42%
+    );
+  backdrop-filter: blur(18px);
+}
+
+.metricCard {
+  min-height: 220px;
+  padding: 26px;
+}
+
+.metricCard::after,
+.dashboardPanel::after,
+.pipelinePanel::after {
+  content: '';
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  right: -60px;
+  bottom: -60px;
+  border-radius: 999px;
+  background: rgba(167, 139, 250, 0.16);
+  filter: blur(10px);
+}
+
+.metricCard strong {
+  display: block;
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  line-height: 1;
+  letter-spacing: -0.07em;
+  background: linear-gradient(135deg, #ffffff, #67e8f9, #a78bfa);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.metricCard span {
+  display: block;
+  margin-top: 12px;
+  color: #67e8f9;
+  font-weight: 900;
+}
+
+.metricCard p {
+  position: relative;
+  margin: 18px 0 0;
+  color: #cbd5e1;
+  line-height: 1.7;
+}
+
+.dashboardPanel,
+.pipelinePanel {
+  padding: 30px;
+}
+
+.dashboardPanelHeader {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.dashboardPanelHeader span {
+  color: #67e8f9;
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+
+.dashboardPanelHeader strong {
+  color: #f8fafc;
+  font-size: 1.1rem;
+}
+
+.stackLevels {
+  position: relative;
+  display: grid;
+  gap: 18px;
+}
+
+.stackLevelHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  color: #e2e8f0;
+  font-weight: 800;
+}
+
+.stackLevelHeader small {
+  color: #67e8f9;
+}
+
+.stackTrack {
+  height: 11px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.stackFill {
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #22d3ee, #a78bfa);
+  box-shadow: 0 0 22px rgba(34, 211, 238, 0.35);
+}
+
+.pipelinePanel {
+  margin-top: 24px;
+}
+
+.pipelineFlow {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.pipelineStep {
+  position: relative;
+  min-height: 110px;
+  padding: 18px;
+  border-radius: 22px;
+  background: rgba(2, 6, 23, 0.42);
+  border: 1px solid rgba(148, 163, 184, 0.14);
+}
+
+.pipelineStep span {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  color: #020617;
+  background: linear-gradient(135deg, #22d3ee, #a78bfa);
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.pipelineStep strong {
+  display: block;
+  margin-top: 18px;
+  color: #e2e8f0;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 1100px) {
+  .dashboardGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .pipelineFlow {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .metricsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .pipelineFlow {
+    grid-template-columns: 1fr;
+  }
+}

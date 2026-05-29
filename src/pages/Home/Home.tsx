@@ -3,6 +3,7 @@ import { Skills } from '../../sections/Skills/Skills'
 import { Projects } from '../../sections/Projects/Projects'
 import { Experience } from '../../sections/Experience/Experience'
 import { Contact } from '../../sections/Contact/Contact'
+import { Dashboard } from '../../sections/Dashboard/Dashboard'
 
 export function Home() {
   return (
@@ -36,6 +37,7 @@ export function Home() {
         </div>
       </section>
 
+      <Dashboard />
       <About />
       <Skills />
       <Projects />
