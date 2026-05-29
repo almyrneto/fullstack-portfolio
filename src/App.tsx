@@ -4,6 +4,7 @@ import { Skills } from './sections/Skills/Skills'
 import { Projects } from './sections/Projects/Projects'
 import { Experience } from './sections/Experience/Experience'
 import { Contact } from './sections/Contact/Contact'
+import { Footer } from './components/Footer/Footer'
 
 function App() {
   return (
@@ -53,6 +54,7 @@ function App() {
       <Projects />
       <Experience />
       <Contact />
+      <Footer />
       
     </main>
   )

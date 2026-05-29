@@ -876,3 +876,34 @@ h1 {
     grid-template-columns: 1fr;
   }
 }
+
+.footer {
+  padding: 36px 7vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  border-top: 1px solid rgba(148, 163, 184, 0.14);
+  color: #94a3b8;
+}
+
+.footer strong {
+  color: #f8fafc;
+  font-size: 1.2rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer span {
+  color: #67e8f9;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 760px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
