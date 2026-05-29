@@ -19,7 +19,7 @@ const contacts = [
   {
     title: 'WhatsApp',
     value: 'Vamos conversar',
-    href: 'https://wa.me/21983124024',
+    href: 'https://wa.me/5521983124024',
   },
 ]
 
