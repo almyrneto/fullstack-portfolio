@@ -1,6 +1,7 @@
 import './styles/app.css'
 import { About } from './sections/About/About'
 import { Skills } from './sections/Skills/Skills'
+import { Projects } from './sections/Projects/Projects'
 
 const stacks = [
   'React',
@@ -87,6 +88,8 @@ function App() {
       <About />
 
       <Skills />
+
+      <Projects />
 
       <section className="section">
         <div className="sectionHeader">
