@@ -10,16 +10,16 @@ O projeto será desenvolvido publicamente através de commits incrementais, perm
 
 Este projeto tem como objetivo demonstrar conhecimento prático em:
 
-* Desenvolvimento Frontend
-* Desenvolvimento Backend
-* Integração de APIs
-* Arquitetura de Software
-* Controle de Versão com Git
-* CI/CD
-* Cloud Computing
-* Infraestrutura AWS
-* Automação de Processos
-* Boas práticas de Engenharia de Software
+- Desenvolvimento Frontend
+- Desenvolvimento Backend
+- Integração de APIs
+- Arquitetura de Software
+- Controle de Versão com Git
+- CI/CD
+- Cloud Computing
+- Infraestrutura AWS
+- Automação de Processos
+- Boas práticas de Engenharia de Software
 
 ---
 
@@ -27,39 +27,39 @@ Este projeto tem como objetivo demonstrar conhecimento prático em:
 
 ### Frontend
 
-* React
-* TypeScript
-* Vite
-* Styled Components
-* React Router
-* Responsive Design
+- React
+- TypeScript
+- Vite
+- Styled Components
+- React Router
+- Responsive Design
 
 ### Backend
 
-* Node.js
-* NestJS
-* REST APIs
+- Node.js
+- NestJS
+- REST APIs
 
 ### Banco de Dados
 
-* Supabase
-* PostgreSQL
+- Supabase
+- PostgreSQL
 
 ### DevOps
 
-* GitHub Actions
-* CI/CD
-* AWS S3
-* AWS CloudFront
-* AWS Route 53
-* AWS Certificate Manager
+- GitHub Actions
+- CI/CD
+- AWS S3
+- AWS CloudFront
+- AWS Route 53
+- AWS Certificate Manager
 
 ### Ferramentas
 
-* Git
-* Linux
-* WSL
-* npm
+- Git
+- Linux
+- WSL
+- npm
 
 ---
 
@@ -67,29 +67,29 @@ Este projeto tem como objetivo demonstrar conhecimento prático em:
 
 ### Portfolio
 
-* Página inicial
-* Sobre mim
-* Experiência profissional
-* Projetos
-* Tecnologias
-* Contato
+- Página inicial
+- Sobre mim
+- Experiência profissional
+- Projetos
+- Tecnologias
+- Contato
 
 ### Área Técnica
 
-* Documentação da arquitetura
-* Decisões técnicas
-* Estrutura do projeto
-* Fluxo de deploy
-* Pipeline CI/CD
+- Documentação da arquitetura
+- Decisões técnicas
+- Estrutura do projeto
+- Fluxo de deploy
+- Pipeline CI/CD
 
 ### Projetos em Destaque
 
-* Sistemas Fullstack
-* Backoffices Administrativos
-* Integrações com APIs
-* Automações de Processos
-* Bots para geração de conteúdo
-* Projetos React + TypeScript
+- Sistemas Fullstack
+- Backoffices Administrativos
+- Integrações com APIs
+- Automações de Processos
+- Bots para geração de conteúdo
+- Projetos React + TypeScript
 
 ---
 
@@ -97,40 +97,40 @@ Este projeto tem como objetivo demonstrar conhecimento prático em:
 
 ### Fase 1 - Estrutura Inicial
 
-* [ ] Configuração do projeto
-* [ ] Configuração Git
-* [ ] Configuração React + TypeScript
-* [ ] Estrutura de pastas
+- [ ] Configuração do projeto
+- [ ] Configuração Git
+- [ ] Configuração React + TypeScript
+- [ ] Estrutura de pastas
 
 ### Fase 2 - Frontend
 
-* [ ] Landing Page
-* [ ] Sobre Mim
-* [ ] Tecnologias
-* [ ] Experiências
-* [ ] Projetos
-* [ ] Responsividade
+- [ ] Landing Page
+- [ ] Sobre Mim
+- [ ] Tecnologias
+- [ ] Experiências
+- [ ] Projetos
+- [ ] Responsividade
 
 ### Fase 3 - Qualidade
 
-* [ ] ESLint
-* [ ] Prettier
-* [ ] Husky
-* [ ] Commit Convention
+- [ ] ESLint
+- [ ] Prettier
+- [ ] Husky
+- [ ] Commit Convention
 
 ### Fase 4 - DevOps
 
-* [ ] GitHub Actions
-* [ ] Pipeline de Build
-* [ ] Pipeline de Deploy
-* [ ] Deploy AWS
+- [ ] GitHub Actions
+- [ ] Pipeline de Build
+- [ ] Pipeline de Deploy
+- [ ] Deploy AWS
 
 ### Fase 5 - Produção
 
-* [ ] Domínio personalizado
-* [ ] HTTPS
-* [ ] Monitoramento
-* [ ] Otimizações de Performance
+- [ ] Domínio personalizado
+- [ ] HTTPS
+- [ ] Monitoramento
+- [ ] Otimizações de Performance
 
 ---
 
@@ -158,9 +158,9 @@ Desenvolvedor Fullstack
 
 Stack principal:
 
-* React
-* TypeScript
-* Node.js
-* NestJS
-* Supabase
-* Python
+- React
+- TypeScript
+- Node.js
+- NestJS
+- Supabase
+- Python

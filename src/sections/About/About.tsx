@@ -4,7 +4,8 @@ const highlights = [
   {
     value: '+3',
     label: 'anos de experiência',
-    description: 'Atuação em aplicações web, sistemas internos e produtos digitais.',
+    description:
+      'Atuação em aplicações web, sistemas internos e produtos digitais.',
   },
   {
     value: '3',
@@ -14,7 +15,8 @@ const highlights = [
   {
     value: 'Fullstack',
     label: 'perfil técnico',
-    description: 'Frontend, backend, integrações, automações e regras de negócio.',
+    description:
+      'Frontend, backend, integrações, automações e regras de negócio.',
   },
   {
     value: 'Cloud',
@@ -34,7 +36,9 @@ export function About() {
         transition={{ duration: 0.6 }}
       >
         <span>Sobre mim</span>
-        <h2>Desenvolvedor fullstack com visão de produto, código e operação.</h2>
+        <h2>
+          Desenvolvedor fullstack com visão de produto, código e operação.
+        </h2>
       </motion.div>
 
       <div className="aboutGrid">
@@ -52,10 +56,10 @@ export function About() {
           </p>
 
           <p>
-            Atuei em projetos na Tecnofábrica como R10, Refinne e Tecnops,
-            além de experiências anteriores em empresas como Economarket e iZap.
-            Meu foco é construir soluções úteis, bem estruturadas e com impacto
-            real no negócio.
+            Atuei em projetos na Tecnofábrica como R10, Refinne e Tecnops, além
+            de experiências anteriores em empresas como Economarket e iZap. Meu
+            foco é construir soluções úteis, bem estruturadas e com impacto real
+            no negócio.
           </p>
         </motion.div>
 

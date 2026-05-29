@@ -5,7 +5,13 @@ const architectureBlocks = [
     title: 'Frontend Architecture',
     description:
       'Aplicação construída com React, TypeScript e Vite, organizada em páginas, seções, componentes reutilizáveis, estilos globais e estrutura preparada para escala.',
-    items: ['React', 'TypeScript', 'Vite', 'Componentização', 'CSS modular por contexto'],
+    items: [
+      'React',
+      'TypeScript',
+      'Vite',
+      'Componentização',
+      'CSS modular por contexto',
+    ],
   },
   {
     title: 'Project Structure',
@@ -17,7 +23,13 @@ const architectureBlocks = [
     title: 'Versionamento',
     description:
       'Desenvolvimento incremental com commits semânticos, separando documentação, features, refactors, correções e configuração de infraestrutura.',
-    items: ['Git', 'GitHub', 'Conventional Commits', 'Branches futuras', 'Histórico público'],
+    items: [
+      'Git',
+      'GitHub',
+      'Conventional Commits',
+      'Branches futuras',
+      'Histórico público',
+    ],
   },
   {
     title: 'CI/CD',

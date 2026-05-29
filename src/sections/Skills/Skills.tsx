@@ -3,7 +3,14 @@ import { motion } from 'framer-motion'
 const skillGroups = [
   {
     title: 'Frontend',
-    skills: ['React', 'TypeScript', 'JavaScript', 'HTML', 'CSS', 'Styled-components'],
+    skills: [
+      'React',
+      'TypeScript',
+      'JavaScript',
+      'HTML',
+      'CSS',
+      'Styled-components',
+    ],
   },
   {
     title: 'Backend',
